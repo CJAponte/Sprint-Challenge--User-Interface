@@ -340,3 +340,113 @@ footer nav a {
 .productsFooter{
     margin-top: 25px;
 }
+
+
+/* --------------------------------------- */
+/* Home Page Media Queries */
+
+@media(max-width: 600px){
+    /* Navigation Bar */
+.navigationBar{
+    display: inline-flex;
+    height: 250px;
+    width: 600px;
+    position: fixed;
+    background: white;
+    z-index: +1;
+    padding-top: 20px;
+}
+.navigationBar img{
+    height: 40px;
+    z-index: +1;
+    position: fixed;
+    left: 215px;
+    margin-bottom: 50px;
+}
+.navigationBar nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 600px;
+    z-index: +1;
+    align-content: center;
+    position: relative;
+    top: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.navigationBar nav a{
+    color: black;
+    text-decoration: none;
+    margin: 0px auto;
+    border: 1px solid block;
+    font-size: 24px;
+}
+
+/*------------------------------*/
+    .container{
+        max-width: 600px;
+        margin: 0px 0px;
+        top: 225px
+    }
+    body{
+        margin: 0px 0px;
+    }
+    html{
+        margin: 0px 0px;;
+    }
+    hr{
+        width: 600px;
+    }
+
+    .headerIMG{
+        width: 600px;
+    }
+    .top-content{
+        flex-direction: column;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .top-content h2{
+        font-weight: bold;
+        position: relative;
+        left: -15px;
+    }
+    .top-content p{
+        width: 500px;
+        position: relative;
+        left: -120px;
+    }
+    .middle-content{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .middle-content h2{
+        font-weight: bold;
+    }
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        left: 250px
+    }
+    .box{
+        justify-content: center;
+        
+    }
+    .bottom-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    .bottom-content h2{
+        font-weight: bold;
+    }
+    .text-container{
+        position: relative;
+        margin: 10px auto;
+
+    }
+}
