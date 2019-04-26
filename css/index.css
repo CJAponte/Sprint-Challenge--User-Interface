@@ -277,6 +277,7 @@ footer nav a {
     margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .aboutBottomSectionContent{
@@ -285,10 +286,43 @@ footer nav a {
     margin-left: 20px;
 }
 
-.aboutBottomSectionContent h3{
 
+/*--------------------------------------------------*/
+/* Products Page */
+
+#productHeaderIMG{
+    width: 800px;
+    margin: 0px auto;
 }
 
-.aboutBottomSectionContent p{
+.productTopSection h2{
+    margin-top: 15px;
+}
+.productTopSection p{
+    margin-bottom: 15px;
+}
 
+.productsMidSection{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.productsCardDesign{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+}
+
+.productsCardDesign h2{
+    margin: 15px auto;
+}
+
+.productsCardDesign p{
+    margin: 25px 0px;
+}
+
+.productsIMGS{
+    max-width: 370px;
 }
