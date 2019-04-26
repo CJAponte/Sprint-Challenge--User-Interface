@@ -312,7 +312,8 @@ footer nav a {
 .productsCardDesign{
     width: 370px;
     border-bottom: 1px dashed black;
-    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
 .productsCardDesign h2{
@@ -323,6 +324,19 @@ footer nav a {
     margin: 25px 0px;
 }
 
+.productsCardDesign button{
+    border: 2px solid black;
+    background: white;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
 .productsIMGS{
     max-width: 370px;
+}
+
+.productsFooter{
+    margin-top: 25px;
 }
