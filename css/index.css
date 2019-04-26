@@ -391,6 +391,7 @@ footer nav a {
         top: 225px
     }
     body{
+        width: 600px;
         margin: 0px 0px;
     }
     html{
@@ -422,6 +423,7 @@ footer nav a {
         flex-direction: column;
         text-align: center;
         margin-top: 25px;
+        justify-content: ceneter;
     }
 
     .middle-content h2{
@@ -431,10 +433,12 @@ footer nav a {
         flex-direction: column;
         justify-content: center;
         position: relative;
-        left: 250px
+        width: 600px;
+        padding-left: 250px;
     }
     .box{
         justify-content: center;
+        width: 100px
         
     }
     .bottom-content{
@@ -448,5 +452,37 @@ footer nav a {
         position: relative;
         margin: 10px auto;
 
+    }
+
+
+    #tealBox{
+        width: 100px;
+    }
+    #goldBox{
+        width: 100px;
+    }
+    #cadetblueBox{
+        width: 100px;
+    }
+    #coralBox{
+        width: 100px;
+    }
+    #crimsonBox{
+        width: 100px;
+    }
+    #forestgreenBox{
+        width: 100px;
+    }
+    #darkorchidBox{
+        width: 100px;
+    }
+    #hotpinkBox{
+        width: 100px;
+    }
+    #indigoBox{
+        width: 100px;
+    }
+    #dodgerblueBox{
+        width: 100px;
     }
 }
