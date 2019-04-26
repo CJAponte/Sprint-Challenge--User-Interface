@@ -66,9 +66,57 @@ p {
     line-height: 1.4;
 }
 
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/* Navigation Bar */
+.navigationBar{
+    display: inline-flex;
+    height: 85px;
+    width: 800px;
+    position: fixed;
+    background: white;
+    z-index: +1;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.navigationBar img{
+    height: 40px;
+    z-index: +1;
+}
+.navigationBar nav{
+    display: flex;
+    justify-content: space-around;
+    width: 660px;
+    z-index: +1;
+    align-content: center;
+    position: relative;
+    top: 20px;
+}
+
+.navigationBar nav a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*----------------------------------------------*/
+
+
+.container{
+    position: relative;
+    top: 85px;
+}
+
+.headerIMG{
+    margin: 20px auto;
 }
 
 .top-content {
@@ -77,6 +125,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    position: relative;
 }
 
 .top-content .text-container {
@@ -143,4 +192,103 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* Box Colors */
+
+#tealBox{
+    background: teal;
+}
+#goldBox{
+    background: gold;
+}
+#cadetblueBox{
+    background: cadetblue
+}
+#coralBox{
+    background: coral;
+}
+#crimsonBox{
+    background: crimson;
+}
+#forestgreenBox{
+    background: forestgreen;
+}
+#darkorchidBox{
+    background: darkorchid;
+}
+#hotpinkBox{
+    background: hotpink;
+}
+#indigoBox{
+    background: indigo;
+}
+#dodgerblueBox{
+    background: dodgerblue;
+}
+
+/* -------------------------------------- */
+/* About Page */
+
+.aboutTopHeader{
+    width: 800px;
+}
+
+.aboutTopHeader h1{
+    margin: 15px auto;
+    margin-left: 15px;
+}
+.aboutTopHeader p{
+    margin-left: 15px;
+}
+
+.topDividingHR{
+    border-top: 1px dashed black;
+    margin-top: 20px;
+}
+
+.midSectionContent{
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.aboutCardDesign{
+    width: 370px;
+    border-bottom: 1px dashed black;
+    margin: 25px 0px;
+}
+
+.aboutCardDesign h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.aboutCardDesign p{
+    margin: 10px 0px;
+}
+
+.aboutCardDesign button{
+    border: 2px solid black;
+    background: white;
+    width: 110px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.aboutBottomSectionContent{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+
+.aboutBottomSectionContent h3{
+
+}
+
+.aboutBottomSectionContent p{
+
 }
